@@ -1,0 +1,14 @@
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\bin\Debug\net8.0\DAL.deps.json
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\bin\Debug\net8.0\DAL.runtimeconfig.json
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\bin\Debug\net8.0\DAL.dll
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\bin\Debug\net8.0\DAL.pdb
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\obj\Debug\net8.0\DAL.csproj.AssemblyReference.cache
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\obj\Debug\net8.0\DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\obj\Debug\net8.0\DAL.AssemblyInfo.cs
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\obj\Debug\net8.0\DAL.dll
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\obj\Debug\net8.0\refint\DAL.dll
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\obj\Debug\net8.0\DAL.pdb
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\obj\Debug\net8.0\DAL.genruntimeconfig.cache
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\DAL\obj\Debug\net8.0\ref\DAL.dll
