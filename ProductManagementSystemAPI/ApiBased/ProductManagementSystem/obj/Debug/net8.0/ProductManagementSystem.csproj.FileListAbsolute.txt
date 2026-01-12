@@ -175,3 +175,4 @@ C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\Pro
 C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\ProductManagementSystem\obj\Debug\net8.0\ref\ProductManagementSystem.dll
 C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\ProductManagementSystem\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\ProductManagementSystem\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\NISHAT\Documents\Adv.NetProject\ProductManagementSystemAPI\ApiBased\ProductManagementSystem\obj\Debug\net8.0\ProductManagementSystem.sourcelink.json

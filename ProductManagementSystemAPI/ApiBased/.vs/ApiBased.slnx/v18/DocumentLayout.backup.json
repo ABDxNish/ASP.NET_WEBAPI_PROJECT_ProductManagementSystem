@@ -3,76 +3,108 @@
   "WorkspaceRootPath": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{808C6B98-D4D1-4821-BAED-624B43238715}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\productmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{808C6B98-D4D1-4821-BAED-624B43238715}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\adminservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\productmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|solutionrelative:bll\\mapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\productmanagementsystem\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\productmanagementsystem\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\services\\categoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\productmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\ef\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\dataaccessfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\ef\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\adminrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\ef\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\categoryrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{808C6B98-D4D1-4821-BAED-624B43238715}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\productmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{808C6B98-D4D1-4821-BAED-624B43238715}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\ef\\pmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\pmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\categorydto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{808C6B98-D4D1-4821-BAED-624B43238715}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\productmanagementsystem\\productmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{808C6B98-D4D1-4821-BAED-624B43238715}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\productmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\dtos\\admindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{52366529-58CE-4B29-86A8-4C90BADAD705}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\ef\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8225ED7E-611B-4810-896B-96D62168FC75}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\ef\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\productmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\ef\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\ef\\pmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\ef\\pmscontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\productmanagementsystem\\productmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{37E69F02-9081-4243-88E0-2EFF3B15DD19}|ProductManagementSystem\\ProductManagementSystem.csproj|solutionrelative:productmanagementsystem\\productmanagementsystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{12357D34-2A02-1ECD-BC6C-D84ADDC1A72E}|DAL\\DAL.csproj|solutionrelative:dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|c:\\users\\nishat\\documents\\adv.netproject\\productmanagementsystemapi\\apibased\\bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5875EBB1-01BE-2D17-3613-D0BAD09CBB40}|BLL\\BLL.csproj|solutionrelative:bll\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,50 +114,167 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CategoryRepository.cs",
-              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Repository\\CategoryRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repository\\CategoryRepository.cs",
-              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Repository\\CategoryRepository.cs",
-              "RelativeToolTip": "DAL\\Repository\\CategoryRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAQwB0AAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T20:41:17.388Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Repository\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "DAL\\Repository\\ProductRepository.cs",
-              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Repository\\ProductRepository.cs",
-              "RelativeToolTip": "DAL\\Repository\\ProductRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAcwBYAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T20:39:44.815Z",
+              "WhenOpened": "2026-01-12T19:52:35.339Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAABgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:49:30.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AdminService.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\Services\\AdminService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\AdminService.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\Services\\AdminService.cs",
+              "RelativeToolTip": "BLL\\Services\\AdminService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAEwBQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:45:50.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CategoryService.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\Services\\CategoryService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\CategoryService.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\Services\\CategoryService.cs",
+              "RelativeToolTip": "BLL\\Services\\CategoryService.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAAADAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:44:03.796Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\Services\\ProductService.cs",
+              "RelativeToolTip": "BLL\\Services\\ProductService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAmwB0AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:36:50.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "MapperConfig.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\MapperConfig.cs",
               "RelativeDocumentMoniker": "BLL\\MapperConfig.cs",
               "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\MapperConfig.cs",
               "RelativeToolTip": "BLL\\MapperConfig.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAAABIAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABEAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-11T20:37:32.104Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAIA6wBwAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:53:32.092Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DataAccessFactory.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\DataAccessFactory.cs",
+              "RelativeDocumentMoniker": "DAL\\DataAccessFactory.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\DataAccessFactory.cs",
+              "RelativeToolTip": "DAL\\DataAccessFactory.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAYwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:31:37.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AdminRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Repository\\AdminRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\AdminRepository.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Repository\\AdminRepository.cs",
+              "RelativeToolTip": "DAL\\Repository\\AdminRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T19:23:09.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CategoryRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Repository\\CategoryRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\CategoryRepository.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Repository\\CategoryRepository.cs",
+              "RelativeToolTip": "DAL\\Repository\\CategoryRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T20:41:17.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "ProductManagementSystem\\Program.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\Program.cs",
+              "RelativeToolTip": "ProductManagementSystem\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T20:06:32.769Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "DAL\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "DAL\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-11T20:39:44.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Interfaces\\IRepository.cs",
               "RelativeDocumentMoniker": "DAL\\Interfaces\\IRepository.cs",
@@ -138,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 13,
               "Title": "CategoryDTO.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\DTOs\\CategoryDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\CategoryDTO.cs",
@@ -146,12 +295,11 @@
               "RelativeToolTip": "BLL\\DTOs\\CategoryDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T20:30:54.884Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T20:30:54.884Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 14,
               "Title": "ProductDTO.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\DTOs\\ProductDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\ProductDTO.cs",
@@ -159,25 +307,11 @@
               "RelativeToolTip": "BLL\\DTOs\\ProductDTO.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T20:28:05.987Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T20:28:05.987Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\Program.cs",
-              "RelativeDocumentMoniker": "ProductManagementSystem\\Program.cs",
-              "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\Program.cs",
-              "RelativeToolTip": "ProductManagementSystem\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T20:06:32.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 15,
               "Title": "AdminDTO.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\DTOs\\AdminDTO.cs",
               "RelativeDocumentMoniker": "BLL\\DTOs\\AdminDTO.cs",
@@ -185,12 +319,11 @@
               "RelativeToolTip": "BLL\\DTOs\\AdminDTO.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAYwA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T20:22:26.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T20:22:26.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 16,
               "Title": "Category.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\EF\\Models\\Category.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\Models\\Category.cs",
@@ -198,12 +331,11 @@
               "RelativeToolTip": "DAL\\EF\\Models\\Category.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAwBEAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T20:01:11.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T20:01:11.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 17,
               "Title": "Product.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\EF\\Models\\Product.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\Models\\Product.cs",
@@ -211,25 +343,23 @@
               "RelativeToolTip": "DAL\\EF\\Models\\Product.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T19:57:55.62Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T19:57:55.62Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "BLL",
+              "DocumentIndex": 18,
+              "Title": "BLL.csproj",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\BLL.csproj",
               "RelativeDocumentMoniker": "BLL\\BLL.csproj",
               "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\BLL.csproj",
               "RelativeToolTip": "BLL\\BLL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-11T19:46:45.396Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T19:46:45.396Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 19,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\appsettings.json",
               "RelativeDocumentMoniker": "ProductManagementSystem\\appsettings.json",
@@ -237,12 +367,11 @@
               "RelativeToolTip": "ProductManagementSystem\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-01-11T20:06:35.035Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T20:06:35.035Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 20,
               "Title": "Admin.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\EF\\Models\\Admin.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\Models\\Admin.cs",
@@ -250,12 +379,11 @@
               "RelativeToolTip": "DAL\\EF\\Models\\Admin.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T19:56:43.676Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T19:56:43.676Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 21,
               "Title": "PMSContext.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\EF\\PMSContext.cs",
               "RelativeDocumentMoniker": "DAL\\EF\\PMSContext.cs",
@@ -263,38 +391,35 @@
               "RelativeToolTip": "DAL\\EF\\PMSContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T19:54:44.075Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T19:54:44.075Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "DAL",
+              "DocumentIndex": 22,
+              "Title": "DAL.csproj",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\DAL.csproj",
               "RelativeDocumentMoniker": "DAL\\DAL.csproj",
               "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\DAL.csproj",
               "RelativeToolTip": "DAL\\DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-11T19:48:33.16Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T19:48:33.16Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ProductManagementSystem",
+              "DocumentIndex": 23,
+              "Title": "ProductManagementSystem.csproj",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\ProductManagementSystem.csproj",
               "RelativeDocumentMoniker": "ProductManagementSystem\\ProductManagementSystem.csproj",
               "ToolTip": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\ProductManagementSystem\\ProductManagementSystem.csproj",
               "RelativeToolTip": "ProductManagementSystem\\ProductManagementSystem.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-01-11T19:46:19.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T19:46:19.193Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 24,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\DAL\\Class1.cs",
               "RelativeDocumentMoniker": "DAL\\Class1.cs",
@@ -302,12 +427,11 @@
               "RelativeToolTip": "DAL\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T19:46:08.611Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T19:46:08.611Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 25,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\NISHAT\\Documents\\Adv.NetProject\\ProductManagementSystemAPI\\ApiBased\\BLL\\Class1.cs",
               "RelativeDocumentMoniker": "BLL\\Class1.cs",
@@ -315,8 +439,7 @@
               "RelativeToolTip": "BLL\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-11T19:45:51.556Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-01-11T19:45:51.556Z"
             }
           ]
         }

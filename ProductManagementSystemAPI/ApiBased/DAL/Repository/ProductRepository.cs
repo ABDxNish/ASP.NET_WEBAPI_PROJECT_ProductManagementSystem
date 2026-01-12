@@ -1,4 +1,5 @@
-﻿using DAL.EF.Models;
+﻿using DAL.EF;
+using DAL.EF.Models;
 using DAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -10,29 +11,40 @@ namespace DAL.Repository
 {
     internal class ProductRepository : IRepository<Product>
     {
+        PMSContext db;
+        public ProductRepository(PMSContext db)
+        {
+            this.db = db;
+        }
+
         public bool Add(Product entity)
         {
-            throw new NotImplementedException();
+            db.Products.Add(entity);
+            return db.SaveChanges() > 0;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var existing= Find(id);
+            db.Products.Remove(existing);
+            return db.SaveChanges() > 0;
         }
 
         public Product Find(int id)
         {
-            throw new NotImplementedException();
+            return db.Products.Find(id);
         }
 
         public List<Product> GetAll()
         {
-            throw new NotImplementedException();
+           return db.Products.ToList();
         }
 
         public bool Update(Product entity)
         {
-            throw new NotImplementedException();
+            var existing = Find(entity.Id);
+            db.Entry(existing).CurrentValues.SetValues(entity);
+            return db.SaveChanges() > 0;
         }
     }
 }

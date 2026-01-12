@@ -1,4 +1,5 @@
-﻿using DAL.EF.Models;
+﻿using DAL.EF;
+using DAL.EF.Models;
 using DAL.Interfaces;
 using System;
 using System.Collections.Generic;
@@ -10,29 +11,40 @@ namespace DAL.Repository
 {
     internal class CategoryRepository : IRepository<Category>
     {
+        PMSContext db;
+        public CategoryRepository(PMSContext db)
+        {
+            this.db = db;
+        }
         public bool Add(Category entity)
         {
-            throw new NotImplementedException();
+            db.Categories.Add(entity);
+            return db.SaveChanges()>0;
         }
 
         public bool Delete(int id)
         {
-            throw new NotImplementedException();
+            var existing=Find(id);
+            db.Categories.Remove(existing);
+            return db.SaveChanges()>0;
         }
 
         public Category Find(int id)
         {
-            throw new NotImplementedException();
+            return db.Categories.Find(id);
+
         }
 
         public List<Category> GetAll()
         {
-            throw new NotImplementedException();
+            return db.Categories.ToList();
         }
 
         public bool Update(Category entity)
         {
-            throw new NotImplementedException();
+            var existing= Find(entity.Id);
+            db.Entry(existing).CurrentValues.SetValues(entity);
+            return db.SaveChanges() > 0;
         }
     }
 }

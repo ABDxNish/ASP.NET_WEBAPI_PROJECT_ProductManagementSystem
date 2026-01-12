@@ -1,3 +1,5 @@
+using BLL.Services;
+using DAL;
 using DAL.EF;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,7 +11,10 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-//builder.Services.AddScoped<CategoryRepository>();
+builder.Services.AddScoped<DataAccessFactory>();
+builder.Services.AddScoped<CategoryService>();
+builder.Services.AddScoped<ProductService>();
+builder.Services.AddScoped<AdminService>(); 
 builder.Services.AddDbContext<PMSContext>(option => {
     option.UseSqlServer(builder.Configuration.GetConnectionString("DbConn"));
 });
