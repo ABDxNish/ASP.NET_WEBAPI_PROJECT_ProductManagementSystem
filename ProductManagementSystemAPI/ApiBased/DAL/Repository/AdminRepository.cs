@@ -9,11 +9,21 @@ using System.Threading.Tasks;
 
 namespace DAL.Repository
 {
-    internal class AdminRepository:IRepository<Admin>
+    internal class AdminRepository:IRepository<Admin>,IAdminFeatures
     {
         PMSContext db;
         public AdminRepository(PMSContext db) { 
         this.db = db;
+        }
+        public Admin LogIn(string username, string password)
+        {
+           return db.Admins.SingleOrDefault(adm=>adm.Name==username && adm.Password==password);
+        }
+        public Admin AddAdmin(Admin admin)
+        {
+            db.Admins.Add(admin);
+             db.SaveChanges();
+            return admin;
         }
 
         public bool Add(Admin entity)
@@ -39,11 +49,23 @@ namespace DAL.Repository
             return db.Admins.ToList();
         }
 
-        public bool Update(Admin entity)
+
+
+        public bool Update(int id, Admin entity)
         {
-            var existing= Find(entity.Id);
-            db.Entry(existing).CurrentValues.SetValues(entity);
+            var existing = Find(id);
+            if (existing == null) return false;
+
+            if (!string.IsNullOrEmpty(entity.Name))
+                existing.Name = entity.Name;
+
+            if (!string.IsNullOrEmpty(entity.Password))
+                existing.Password = entity.Password;
+
             return db.SaveChanges() > 0;
         }
+
+
+
     }
 }

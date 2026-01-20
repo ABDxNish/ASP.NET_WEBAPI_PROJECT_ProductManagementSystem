@@ -12,14 +12,14 @@ namespace DAL.EF.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+       
         [StringLength(30)]
         [Column(TypeName ="VARCHAR")]
         public string Name { get; set; }
-        [Required]
+       
 
         public decimal Price { get; set; }
-        [Required]
+       
         public int Quantity { get; set; }
         [ForeignKey("cat")]
         public int CId {  get; set; }

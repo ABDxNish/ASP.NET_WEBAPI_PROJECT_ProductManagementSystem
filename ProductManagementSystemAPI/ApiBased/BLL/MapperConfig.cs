@@ -16,7 +16,10 @@ namespace BLL
                 cfg.CreateMap<Category, CategoryDTO>().ReverseMap();
                 cfg.CreateMap<Product, ProductDTO>().ReverseMap();
                 cfg.CreateMap<Admin, AdminDTO>().ReverseMap();
-                
+                cfg.CreateMap<Category, CategoryProductDTO>().ReverseMap();
+                cfg.CreateMap<Customer, CustomerDTO>().ReverseMap();
+                cfg.CreateMap<Order, OrderDTO>().ReverseMap();
+
             });
             public static Mapper GetMapper()
             {

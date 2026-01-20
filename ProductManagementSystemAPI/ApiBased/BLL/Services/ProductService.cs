@@ -33,11 +33,11 @@ namespace BLL.Services
             var data = mapper.Map<Product>(c);
             return factory.ProductData().Add(data);
         }
-        public bool Update(ProductDTO c)
+        public bool Update(int id, ProductDTO c)
         {
             var mapper = MapperConfig.GetMapper();
             var data = mapper.Map<Product>(c);
-            return factory.ProductData().Update(data);
+            return factory.ProductData().Update(id,data);
         }
         public bool Delete(int id)
         {

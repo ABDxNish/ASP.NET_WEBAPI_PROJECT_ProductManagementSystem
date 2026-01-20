@@ -14,7 +14,10 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<DataAccessFactory>();
 builder.Services.AddScoped<CategoryService>();
 builder.Services.AddScoped<ProductService>();
-builder.Services.AddScoped<AdminService>(); 
+builder.Services.AddScoped<AdminService>();
+builder.Services.AddScoped<CustomerService>();
+builder.Services.AddScoped<OrderService>();
+builder.Services.AddScoped<MailerService>();
 builder.Services.AddDbContext<PMSContext>(option => {
     option.UseSqlServer(builder.Configuration.GetConnectionString("DbConn"));
 });

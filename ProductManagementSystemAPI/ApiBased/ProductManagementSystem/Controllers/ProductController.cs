@@ -14,21 +14,42 @@ namespace ProductManagementSystem.Controllers
         {
             this.service = service;
         }
+        bool IsAdmin()
+        {
+            return Request.Cookies["admin"] == "true";
+        }
+        bool IsCustomer()
+        {
+            return Request.Cookies["customer"] == "true";
+        }
+
         [HttpGet("all")]
         public IActionResult GetAll()
         {
+            if (!IsAdmin() || IsCustomer())
+            {
+                return Unauthorized("Please Login");
+            }
             var data = service.GetAll();
             return Ok(data);
         }
         [HttpGet("{id}")]
         public IActionResult Find(int id)
         {
+            if (!IsAdmin() || !IsCustomer())
+            {
+                return Unauthorized("Please Login");
+            }
             var data = service.Find(id);
             return Ok(data);
         }
         [HttpPost("add")]
         public IActionResult Add(ProductDTO c)
         {
+            if (!IsAdmin())
+            {
+                return Unauthorized("Please Login As Admin");
+            }
             var res = service.Add(c);
             if (res == true)
             {
@@ -39,10 +60,15 @@ namespace ProductManagementSystem.Controllers
                 return BadRequest(res);
             }
         }
-        [HttpPost("update")]
-        public IActionResult Update(ProductDTO c)
+        [HttpPost("update/{id}")]
+        public IActionResult Update(int id,ProductDTO c)
         {
-            var res = service.Update(c);
+
+            if (!IsAdmin())
+            {
+                return Unauthorized("Please Login As Admin");
+            }
+            var res = service.Update(id,c);
             if (res == true)
             {
                 return Ok(res);
@@ -52,11 +78,15 @@ namespace ProductManagementSystem.Controllers
                 return BadRequest(res);
             }
         }
-        [HttpPost("delete/{id}")]
+        [HttpDelete("delete/{id}")]
         public IActionResult Delete(int id)
         {
+            if (!IsAdmin())
+            {
+                return Unauthorized("Please Login As Admin");
+            }
             var res = service.Delete(id);
-            if (res == true)
+            if (res ==true)
             {
                 return Ok(res);
             }

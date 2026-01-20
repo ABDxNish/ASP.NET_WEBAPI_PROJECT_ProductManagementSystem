@@ -12,7 +12,7 @@ namespace DAL.EF.Models
     {
         [Key]
         public int Id { get; set; }
-        [Required]
+       
         [StringLength(20)]
         [Column(TypeName = "VARCHAR")]
         public string Name { get; set; }

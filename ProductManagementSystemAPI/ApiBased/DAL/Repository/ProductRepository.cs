@@ -40,11 +40,22 @@ namespace DAL.Repository
            return db.Products.ToList();
         }
 
-        public bool Update(Product entity)
+        public bool Update(int id,Product entity)
         {
-            var existing = Find(entity.Id);
-            db.Entry(existing).CurrentValues.SetValues(entity);
+            var existing = Find(id);
+            if (existing == null) return false;
+
+            if (!string.IsNullOrEmpty(entity.Name))
+                existing.Name = entity.Name;
+
+            if (entity.Price > 0)
+                existing.Price = entity.Price;
+
+            if (entity.Quantity > 0)
+                existing.Quantity = entity.Quantity;
+
             return db.SaveChanges() > 0;
+
         }
     }
 }

@@ -11,7 +11,7 @@ namespace DAL.Interfaces
         T Find(int id);
         List<T> GetAll();
         bool Add(T entity);
-        bool Update(T entity);
+        bool Update(int id,T entity);
         bool Delete(int id);
 
     }
