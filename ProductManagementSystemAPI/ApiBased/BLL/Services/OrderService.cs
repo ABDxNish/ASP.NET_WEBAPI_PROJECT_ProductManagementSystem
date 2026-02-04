@@ -1,6 +1,7 @@
 ﻿using BLL.DTOs;
 using DAL;
 using DAL.EF.Models;
+using Microsoft.Identity.Client;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,84 +20,68 @@ namespace BLL.Services
 
         public OrderDTO PlaceOrder(CustOrderDTO dto)
         {
-            
-            var customer = factory.CustomerData().Find(dto.CustomerId);
-            if (customer == null)
+            var existing = factory.CustomerData().Find(dto.CustomerId);
+            if (existing == null)
             {
-                throw new Exception("Invalid Customer");
-            }
+                throw new Exception("Customer Not found");
 
+            }
             decimal total = 0;
             List<OrderItem> items = new List<OrderItem>();
-
             foreach (var pid in dto.PId)
             {
-                var product = factory.ProductData().Find(pid);
-
-                if (product == null)
+                var existingProduct = factory.ProductData().Find(pid);
+                if (existingProduct == null)
                 {
-                    throw new Exception("Invalid Product ID: " + pid);
+                    throw new Exception($"{pid} does not exist.");
                 }
-
-                total += product.Price;
-
+                total += existingProduct.Price;
                 items.Add(new OrderItem
                 {
                     ProductId = pid
                 });
             }
-
-            Order order = new Order
+            Order orders = new Order
             {
                 CId = dto.CustomerId,
+                TotalBill = total,
                 OrderDate = DateTime.Now,
                 Status = "Pending",
-                TotalBill = total,
                 Items = items
             };
-
-            factory.OrderData().Add(order);
-
-            return new OrderDTO
-            {
-                Id = order.Id,
-                TotalBill = order.TotalBill,
-                Status = order.Status
-            };
+            factory.OrderData().Add(orders);
+            var mapper = MapperConfig.GetMapper();
+            return mapper.Map<OrderDTO>(orders);
         }
-        public List<CusProductOrderDTO> GetOrdersByCustomer(int customerId)
+        public List<CusProductOrderDTO> GetOrdersByCustomer(int cId)
         {
-            var orders = factory.OrderFeatures()
-                .GetOrdersWithProductsByCustomer(customerId);
-
-            List<CusProductOrderDTO> result = new();
-
+            var orders=factory.OrderFeatures().GetOrdersWithProductsByCustomer(cId);
+            List<CusProductOrderDTO> value = new();
             foreach (var o in orders)
             {
                 CusProductOrderDTO dto = new CusProductOrderDTO
                 {
                     OrderId = o.Id,
-                    CustomerName = o.Cus.UserName,  
+                    CustomerName = o.Cus.UserName,
                     TotalBill = o.TotalBill,
                     Items = new List<ProductDTO>()
                 };
-
                 foreach (var i in o.Items)
                 {
                     dto.Items.Add(new ProductDTO
                     {
                         Name = i.Product.Name,
                         Price = i.Product.Price,
-                        Quantity = 1,          
-                        CId = i.Product.CId
+                        Quantity = 1,
+                        CId = i.ProductId
                     });
                 }
-
-                result.Add(dto);
+                value.Add(dto);
             }
 
-            return result;
+                return value;
         }
+
         public OrderDTO PayOrder(int orderId)
         {
             var order = factory.OrderData().Find(orderId);

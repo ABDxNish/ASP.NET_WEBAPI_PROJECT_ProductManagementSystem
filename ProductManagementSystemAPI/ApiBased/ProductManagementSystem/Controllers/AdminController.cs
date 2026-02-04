@@ -71,6 +71,7 @@ namespace ProductManagementSystem.Controllers
         [HttpPost("add")]
         public IActionResult Add(AdminDTO c)
         {
+
             var res = service.Add(c);
             if (res == true)
             {
